@@ -1,0 +1,15 @@
+{
+  "name": "wechat-banks",
+  "version": "1.0.0",
+  "description": "Chinese banks list stolen from wechat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wechat",
+    "banks"
+  ],
+  "author": "yuche",
+  "license": "ISC"
+}
