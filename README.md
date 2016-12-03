@@ -86,7 +86,7 @@ src 文件夹下有源代码。请确保你的 Node.js 版本大于 v4。然后�
 3. 打开 chrome dev tools 或者其他抓包工具；
 4. 进行一次真实的银行名称的选取（选类型 > 省份 > 城市），拿到你的 MERCHANT_ID，COOKIE 和 TOKEN；
 5. 替换掉 index.js [第 9 行到第 11 行](https://github.com/yuche/wechat-banks/blob/master/src/index.js#L9-L11)的内容；
-6. 终端运行 node index.js
+6. 终端运行 `node index.js`
 
 由于脚本是 2016 年初写的，不保证微信的 api 是否有变化。如果一切顺利，你大概请求 9800 次微信服务器就可以得到完整数据。
 
